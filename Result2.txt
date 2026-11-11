@@ -1,0 +1,30 @@
+Hotel room:
+Number of rooms: 2
+Area: 25
+Room number: 102
+Occupancy: 2
+Booked dates:
+1. 15.6.2026-20.6.2026
+2. 1.7.2026-5.7.2026
+Price: 1500
+
+Hotel room:
+Number of rooms: 3
+Area: 40
+Room number: 103
+Occupancy: 4
+Booked dates:
+1. 10.8.2026-17.8.2026
+Price: 2200
+
+Hotel room:
+Number of rooms: 2
+Area: 22
+Room number: 104
+Occupancy: 2
+Booked dates:
+1. 1.6.2026-3.6.2026
+2. 10.6.2026-12.6.2026
+3. 20.6.2026-25.6.2026
+Price: 1300
+

@@ -1,0 +1,107 @@
+=== operator<< (вивід усіх номерів) ===
+Hotel room:
+Number of rooms: 3
+Area: 95
+Room number: 101
+Occupancy: 2
+Booked dates:
+1. 23.5.2026-4.6.2026
+Price: 750
+
+Hotel room:
+Number of rooms: 2
+Area: 25
+Room number: 102
+Occupancy: 2
+Booked dates:
+1. 15.6.2026-20.6.2026
+2. 1.7.2026-5.7.2026
+Price: 1500
+
+Hotel room:
+Number of rooms: 1
+Area: 18
+Room number: 103
+Occupancy: 1
+Price: 900
+
+Hotel room:
+Number of rooms: 3
+Area: 40
+Room number: 103
+Occupancy: 4
+Booked dates:
+1. 10.8.2026-17.8.2026
+Price: 2200
+
+Hotel room:
+Number of rooms: 2
+Area: 22
+Room number: 104
+Occupancy: 2
+Booked dates:
+1. 1.6.2026-3.6.2026
+2. 10.6.2026-12.6.2026
+3. 20.6.2026-25.6.2026
+Price: 1300
+
+Hotel room:
+Number of rooms: 4
+Area: 55
+Room number: 105
+Occupancy: 5
+Price: 3000
+
+=== operator= (копіювання rooms[0]) ===
+Hotel room:
+Number of rooms: 3
+Area: 95
+Room number: 101
+Occupancy: 2
+Booked dates:
+1. 23.5.2026-4.6.2026
+Price: 750
+
+=== operator> < == != (порівняння за вартістю) ===
+r0 > r1:  0
+r0 < r1:  1
+r0 == r1: 0
+r0 != r1: 1
+
+=== operator string (приведення до рядка) ===
+Hotel room:
+Number of rooms: 3
+Area: 95
+Room number: 101
+Occupancy: 2
+Booked dates:
+1. 23.5.2026-4.6.2026
+Price: 750
+
+=== operator++ (ціна +1000) ===
+Початкова ціна: 750
+Префіксний ++t:  1750 (повернуто вже змінений)
+Постфіксний t++: 1750 (повернуто старе), тепер 2750
+
+=== Сортування за зростанням ціни (через operator>) ===
+750 900 1300 1500 2200 3000 
+
+=== operator+ (сума всіх номерів: кімнати, площа, місткість, ціна, бронювання) ===
+Hotel room:
+Number of rooms: 15
+Area: 255
+Room number: 0
+Occupancy: 16
+Booked dates:
+1. 23.5.2026-4.6.2026
+2. 1.6.2026-3.6.2026
+3. 10.6.2026-12.6.2026
+4. 20.6.2026-25.6.2026
+5. 15.6.2026-20.6.2026
+6. 1.7.2026-5.7.2026
+7. 10.8.2026-17.8.2026
+Price: 9650
+
+=== operator++ для всіх елементів масиву ===
+1750 1900 2300 2500 3200 4000 
+
